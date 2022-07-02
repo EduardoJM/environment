@@ -24,6 +24,8 @@ sudo apt-get -y install git
 #
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt-get -y install nodejs
+sudo npm install -g yarn
+sudo npm install -g http-server
 
 #
 # Chrome
@@ -49,3 +51,21 @@ sudo apt-get -y install docker.io docker-compose
 # Code
 #
 sudo apt-get -y install code
+code --install-extension ms-python.python
+
+#
+# Gimp
+#
+sudo apt-get -y install gimp
+
+#
+# Inkscape
+#
+sudo apt-get -y install inkscape
+
+#
+# Other Utils
+#
+sudo apt-get -y install simplescreenrecorder
+sudo apt-get -y install python3-pip python3-dev libpq-dev libcurl4-gnutls-dev librtmp-dev
+pip3 install virtualenv
