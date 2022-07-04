@@ -33,11 +33,6 @@ sudo npm install -g http-server
 sudo apt-get -y install google-chrome-stable
 
 #
-# Nautilus
-#
-sudo apt-get -y install nautilus
-
-#
 # Plank
 #
 sudo apt-get -y install plank
@@ -51,7 +46,6 @@ sudo apt-get -y install docker.io docker-compose
 # Code
 #
 sudo apt-get -y install code
-code --install-extension ms-python.python
 
 #
 # Gimp
@@ -69,3 +63,6 @@ sudo apt-get -y install inkscape
 sudo apt-get -y install simplescreenrecorder
 sudo apt-get -y install python3-pip python3-dev libpq-dev libcurl4-gnutls-dev librtmp-dev
 pip3 install virtualenv
+
+./utils/font.sh
+./utils/vscode.sh

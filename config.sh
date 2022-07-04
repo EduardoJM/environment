@@ -11,6 +11,4 @@ gsettings set org.cinnamon.desktop.wm.preferences button-layout 'close,maximize,
 
 
 
-xdg-mime default nautilus.desktop inode/directory application
-
 sudo usermod -aG docker eduardo
