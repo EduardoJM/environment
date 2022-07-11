@@ -48,14 +48,10 @@ sudo apt-get -y install docker.io docker-compose
 sudo apt-get -y install code
 
 #
-# Gimp
+# Gimp and Inkscape
 #
-sudo apt-get -y install gimp
-
-#
-# Inkscape
-#
-sudo apt-get -y install inkscape
+sudo apt-get -y install gimp inkscape
+sudo apt-get -y install default-jdk
 
 #
 # Other Utils
